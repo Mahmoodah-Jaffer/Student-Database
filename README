@@ -1,0 +1,9 @@
+Makefile - Used to compile files and run executables
+database.h - Methods used in database.cpp are declared. The StudentRecord struct is also in this file.
+database.cpp - The methods for the functionality of the database are in here (add, read, save, display, grade).
+			 - The vector used to store the many instances of StudentRecord is in this file as well.
+
+driver.cpp - Contains main(), the event loop, and provides the appropriate methods with the necessary inputs.
+		   - Created an option t(for debugging) that outputs the names of all students currently stored in the StudentRecord vector.
+
+Note: If a file cannot be open to be read then the error message is shown above - the screen gets "cleared" so just scroll up to see the error message.
